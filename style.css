@@ -1,0 +1,167 @@
+body{
+	background-color: #00BD9C;
+}
+header{
+	height: 63px;
+	background-color: #fff;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+	z-index: 1;
+}
+.logo{
+	font-size: 33px;
+	font-weight: 900;
+	position:absolute;
+	top:12px;
+	left: 82px;
+	bottom: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+.plus{
+	color:#00BD9C;
+	display:inline;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	position:absolute;
+	right: 30px;
+	top:22px;
+	font-size:16px;
+	text-transform: uppercase;
+}
+.butt{
+	margin:0px 20px;
+	color:#665F5D;
+}
+.main{
+	position: absolute;
+	top:63px;
+	left:0;
+	right:0;
+}
+.content{
+	height: 416px;
+}
+
+img {
+	position:absolute;
+	top:30px;
+	left:230px;
+    max-width: 900px;
+    max-height:355px;
+}
+.txtcontent{
+	position:absolute;
+	right:270px;
+	top:50px;
+	width:30%;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+}
+.buynow{
+	border:3px solid #fff;
+	position: absolute;
+	border-radius:100px;
+	padding: 5px;
+	color:#fff;
+	transition: 0.7s;
+}
+.buynow:hover{
+	background-color: #fff;
+	color:#00BD9C;
+}
+h3{
+	font-size: 27px;
+}
+.subcontent{
+	background-color:#fff; 
+	padding-top: 100px;
+	position:absolute;
+	height: 170px;	
+	display:flex;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.scont1:before{
+	display:block;
+	margin-left:180px;
+	top:30px;
+	content: '';
+	background-image:url(2.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-position: center;
+	background-color: #00bd9c;
+	height:80px;
+	width:80px;
+	border:3px solid #00bd9c;
+	border-radius:100%;
+}
+.scont2:before{
+	display:block;
+	margin-left:180px;
+	top:30px;
+	content: '';
+	background-image:url(3.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-position: center;
+	background-color: #00bd9c;
+	height:80px;
+	width:80px;
+	border:3px solid #00bd9c;
+	border-radius:100%;
+}
+.scont3:before{
+	display:block;
+	margin-left:180px;
+	top:30px;
+	content: '';
+	background-image:url(4.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-position: center;
+	background-color: #00bd9c;
+	height:80px;
+	width:80px;
+	border:3px solid #00bd9c;
+	border-radius:100%;
+}
+.footer{
+	position:absolute;
+	top:760px;
+	left:43%;
+	text-align: center;
+	height:300px;
+}
+.contact{
+	color:#fff;
+}
+input{
+	display:block;
+	margin:10px;
+}
+#sumb{
+	position:absolute;
+}
+.sbut{
+	border:1px solid #fff;
+	position: absolute;
+	left:-5px;
+	border-radius:5px;
+	padding: 5px;
+	color:#fff;
+	transition: 0.7s;
+	width: 100%;
+}
+.sbut:hover{
+	background-color: #fff;
+	color:#00BD9C;
+}
+.submit{
+	width:90%;
+}
